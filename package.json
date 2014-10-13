@@ -1,0 +1,30 @@
+{
+  "name": "snamel",
+  "description": "Convert Object and String Javascript types between different styles",
+  "version": "0.10.13",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "dependencies": {
+    "change-case": "*"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "",
+  "keywords": ["snake_case", "camelCase", "data type", "camelize", "convert"],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": "Kikobeats/snamel",
+  "scripts": {
+    "test": "sh test/test.sh",
+    "prepublish": "npm prune"
+  }
+}
