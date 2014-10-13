@@ -1,7 +1,7 @@
 {
   "name": "snamel",
   "description": "Convert Object and String Javascript types between different styles",
-  "version": "0.10.13",
+  "version": "0.10.13b",
   "author": {
     "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
