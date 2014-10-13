@@ -8,6 +8,7 @@
     "url": "https://github.com/Kikobeats"
   },
   "dependencies": {
+    "coffee-script": "*",
     "change-case": "*"
   },
   "devDependencies": {
