@@ -15,20 +15,20 @@ str2 = 'HELLO'
 describe 'Snamel ::', ->
 
   it 'convert camelCase into snake_case', ->
-    snamel.convert(data: obj2,  to:'snakeCase').should.eql obj1
+    snamel(data: obj2,  to:'snakeCase').should.eql obj1
 
   it 'convert snake_case into camelCase', ->
-    snamel.convert(data: obj1,  to:'camelCase').should.eql obj2
+    snamel(data: obj1,  to:'camelCase').should.eql obj2
 
   it 'convert lowerCase into upperCase', ->
-     snamel.convert(data: str1,  to:'upperCase').should.eql str2
+     snamel(data: str1,  to:'upperCase').should.eql str2
 
   it 'convert upperCase into lowerCase', ->
-     snamel.convert(data: str2,  to:'lowerCase').should.eql str1
+     snamel(data: str2,  to:'lowerCase').should.eql str1
 
   it 'check if is lowerCase', ->
-    snamel.convert(data: str1,  is:'lowerCase').should.eql true
+    snamel(data: str1,  is:'lowerCase').should.eql true
 
   it 'check if is upperCase', ->
-    snamel.convert(data: str2, is:'upperCase').should.eql true
+    snamel(data: str2, is:'upperCase').should.eql true
 
