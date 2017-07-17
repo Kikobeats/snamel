@@ -1,5 +1,7 @@
 # Snamel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/snamel.svg)](https://greenkeeper.io/)
+
 [![Build Status](http://img.shields.io/travis/Kikobeats/snamel/master.svg?style=flat)](https://travis-ci.org/Kikobeats/snamel)
 [![Dependency status](http://img.shields.io/david/Kikobeats/snamel.svg?style=flat)](https://david-dm.org/Kikobeats/snamel)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/snamel.svg?style=flat)](https://david-dm.org/Kikobeats/snamel#info=devDependencies)
